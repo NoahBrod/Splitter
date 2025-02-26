@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-      <HelloWorld msg="Welcome" />
+      <!-- <HelloWorld msg="Welcome" /> -->
     </div>
   </header>
 
@@ -22,23 +22,29 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 header {
   /* display: flex; */
-  line-height: 1.5;
-  max-height: 100vh;
-  background-color: gray;
+  /* line-height: 1.5; */
+  /* max-height: 100vh; */
 }
 
-.logo {
+/* .logo {
   display: block;
   margin: 0 auto 2rem;
-}
+} */
 
 nav {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
+  display: flex;
+  text-align: left;
+  margin-left: -1rem;
+  font-size: 1rem;
+
+  padding: 1rem;
+  margin-top: 1rem;
   /* left: 0; */
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
+  /* width: 100%; */
+  /* font-size: 12px; */
+  /* text-align: center; */
 }
 
 nav a.router-link-exact-active {
