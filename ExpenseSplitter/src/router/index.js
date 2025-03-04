@@ -7,7 +7,13 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: HomeView
+    },
+    {
+      path: '/splitter',
+      name: 'splitter',
+      component: () => import('../views/SplitterView.vue'),
+      meta: { hideHeader: true }
     },
     {
       path: '/about',
