@@ -8,15 +8,21 @@ const route = useRoute();
 </script>
 
 <template>
-  <header v-if="!route.meta.hideHeader">
+  <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
-      <nav>
+      <nav v-if="!route.meta.hideHeader">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/splitter">Splitter</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/about">Login</RouterLink>
+        <RouterLink to="/about">Sign Up</RouterLink> -->
       </nav>
+      <!-- <nav v-if="route.meta.hideHeader">
+        <RouterLink to="/">Groups</RouterLink>
+        <RouterLink to="/splitter">Activity</RouterLink>
+        <RouterLink to="/about">Profile</RouterLink>
+      </nav> -->
       <!-- <HelloWorld msg="Welcome" /> -->
     </div>
   </header>

@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav a,
 .green {
   text-decoration: none;

@@ -7,7 +7,7 @@ import TheWelcome from '../components/TheWelcome.vue'
     <!-- <TheWelcome /> -->
     <div id="title">
       <h1>Expense Splitter</h1>
-      <h3>Split expenses with friends easily.</h3>
+      <h3>Split expenses with others easily.</h3>
       <div id="titleButton">
         <a href="/splitter">Open Splitter</a>
       </div>
@@ -19,10 +19,10 @@ import TheWelcome from '../components/TheWelcome.vue'
         Set it up once, and we'll handle the rest—automatically tracking expenses and sending friendly reminders, so you never miss a payment.
       </p> -->
       <ul>
-        <li><span>Easily split and send bills</span> to your friends with just a few taps.</li>
-        <li><span>Set up recurring expenses</span> and let the app handle the rest.</li>
-        <li><span>Automatic reminders</span> ensure everyone stays on top of their payments.</li>
-        <li><span>Track shared expenses effortlessly</span> with a clear and organized overview.</li>
+        <li>💸<span>Easily split and send bills</span> to your friends with just a few taps.</li>
+        <li>🔁<span>Set up recurring expenses</span> and let the app handle the rest.</li>
+        <li>⏰<span>Automatic reminders</span> ensure everyone stays on top of their payments.</li>
+        <li>📊<span>Track shared expenses effortlessly</span> with a clear and organized overview.</li>
       </ul>
     </section>
   </main>
