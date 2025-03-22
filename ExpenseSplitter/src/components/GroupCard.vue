@@ -4,10 +4,10 @@
         <slot name="groupname"></slot>
     </h3>
     <div class="members">
-      <ul>
-        <!-- Change to prop and v-for later -->
-        <slot></slot>
-      </ul>
+      <b>Balance:</b>
+      <p>
+        $<slot name="balance"></slot>
+      </p>
     </div>
   </div></a>
   
@@ -20,13 +20,32 @@ a {
 
 .card {
     padding: 1rem;
+    width: 200px;
     border-bottom: 1px solid var(--color-border);
 }
 
+.members {
+  /* margin-left: auto; */
+  /* display: flex;
+  flex-direction: column; */
+  /* background-color: antiquewhite; */
+}
+
 h3 {
-    color: #4DB6AC;
-    /* font-weight: bold; */
-    /* font-size: 28px; */
+    color: var(--color-heading);
+}
+
+b {
+  /* color: #4DB6AC; */
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+p {
+  color: #4DB6AC;
+  font-size: 18px;
+  font-family: monospace;
 }
 
 ul {

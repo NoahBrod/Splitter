@@ -12,25 +12,19 @@ const awesome = ref(false)
         <div id="groupsWrapper">
           <GroupCard>
             <template #groupname>Group 1</template>
-            <li>User 1</li>
-            <li>User 2</li>
+            <template #balance>10.00</template>
           </GroupCard>
           <GroupCard>
             <template #groupname>Group 2</template>
-            <li>User 1</li>
-            <li>User 2</li>
-            <li>User 3</li>
+            <template #balance>2.34</template>
           </GroupCard>
           <GroupCard>
             <template #groupname>Group 3</template>
-            <li>User 1</li>
-            <li>User 2</li>
-            <li>User 3</li>
-            <li>User 4</li>
+            <template #balance>4.50</template>
           </GroupCard>
           <GroupCard>
             <template #groupname>Group 4</template>
-            <li>User 1</li>
+            <template #balance>12.78</template>
           </GroupCard>
         </div>
         <a href="/">Return</a>
